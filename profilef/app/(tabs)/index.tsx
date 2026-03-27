@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Image, FlatList, StyleSheet, } from 'react-native';
 
+
 type Post = {
   id: string;
   text: string;
