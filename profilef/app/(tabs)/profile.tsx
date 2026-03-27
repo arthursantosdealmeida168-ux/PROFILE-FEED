@@ -26,7 +26,7 @@ export default function ProfileScreen() {
       
       <View style={styles.actions}>
         <Text style={styles.button}>Seguindo</Text>
-        <Text style={styles.button}>Conmentários</Text>
+        <Text style={styles.button}>Comentários</Text>
       </View>
 
       <FlatList
@@ -45,61 +45,65 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#183080'
+    backgroundColor: '#0f172a',
   },
+
   header: {
-    height: 100,
-    backgroundColor: '#11173141'
+    height: 120,
+    backgroundColor: '#1e293b',
   },
+
   avatar: {
-    width: 70,
-    height: 70,
+    width: 90,
+    height: 90,
     borderRadius: 50,
-    backgroundColor: '#3a3a6e88',
+    backgroundColor: '#8a9fcca4',
     alignSelf: 'center',
-    marginTop: -40,
+    marginTop: -45,
     borderWidth: 4,
-    borderColor: '#738096a9'
+    borderColor: '#0f172a',
   },
+
   name: {
     textAlign: 'center',
-    fontSize: 10,
+    fontSize: 18,
     fontWeight: 'bold',
-    marginTop: 10
+    color: '#fff',
+    marginTop: 10,
   },
+
   username: {
     textAlign: 'center',
-    color: '#666'
+    color: '#94a3b8',
+    marginBottom: 10,
   },
+
   actions: {
     flexDirection: 'row',
     justifyContent: 'center',
-    marginVertical: 10
+    gap: 10,
+    marginBottom: 15,
   },
+
   button: {
-    backgroundColor: '#99aae688',
-    padding: 6,
-    marginHorizontal: 5,
-    borderRadius: 6
+    backgroundColor: '#6375df85',
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderRadius: 8,
+    color: '#0f172a',
+    fontWeight: 'bold',
   },
-  postBox: {
-    padding: 30
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: '#848cb831',
-    borderRadius: 5,
-    padding: 4,
-    marginBottom: 20
-  },
+
   post: {
-    margin: 10,
-    backgroundColor: '#ffffff86',
-    borderRadius: 10,
-    overflow: 'hidden'
+    marginHorizontal: 15,
+    marginBottom: 15,
+    borderRadius: 12,
+    overflow: 'hidden',
+    backgroundColor: '#1e293b',
   },
+
   postImage: {
-    width: '60%',
-    height: 100
-  }
+    width: '100%',
+    height: 200,
+  },
 });
