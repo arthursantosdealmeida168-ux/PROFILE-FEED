@@ -45,19 +45,19 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: '#233753a2',
   },
 
   header: {
     height: 120,
-    backgroundColor: '#1e293b',
+    backgroundColor: '#a0a5adb7',
   },
 
   avatar: {
     width: 90,
     height: 90,
     borderRadius: 50,
-    backgroundColor: '#8a9fcca4',
+    backgroundColor: '#597fcaa4',
     alignSelf: 'center',
     marginTop: -45,
     borderWidth: 4,
@@ -68,13 +68,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#fff',
+    color: '#dacfcfe5',
     marginTop: 10,
   },
 
   username: {
     textAlign: 'center',
-    color: '#94a3b8',
+    color: '#a6b3c5',
     marginBottom: 10,
   },
 
@@ -86,11 +86,11 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#6375df85',
+    backgroundColor: '#608fd485',
     paddingVertical: 6,
     paddingHorizontal: 12,
     borderRadius: 8,
-    color: '#0f172a',
+    color: '#16181be1',
     fontWeight: 'bold',
   },
 
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     borderRadius: 12,
     overflow: 'hidden',
-    backgroundColor: '#1e293b',
+    backgroundColor: '#4a4f57',
   },
 
   postImage: {
