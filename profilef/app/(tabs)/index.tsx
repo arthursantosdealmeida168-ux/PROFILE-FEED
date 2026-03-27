@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   createBox: {
     backgroundColor: '#f1e7e7',
     padding: 10,
-    borderRadius: 20,
+    borderRadius: 10,
     marginBottom: 15,
   },
 
@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
   preview: {
     width: '200%',
     height: 150,
-    borderRadius: 15,
-    marginBottom: 15,
+    borderRadius: 10,
+    marginBottom: 10,
   },
 
   button: {
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   },
 
   buttonText: {
-    color: '#223046',
+    color: '#182233',
     fontWeight: 'bold',
   },
 
@@ -117,12 +117,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#a89898c2',
     padding: 15,
     borderRadius: 10,
-    marginBottom: 20,
+    marginBottom: 10,
   },
 
   text: {
     marginBottom: 10,
-    fontSize: 15,
+    fontSize: 10,
   },
 
   image: {
