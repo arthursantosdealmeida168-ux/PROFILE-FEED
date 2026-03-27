@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet, Image, FlatList } from 'react-native';
 import { useState } from 'react';
+import { Ionicons } from '@expo/vector-icons';
+
 
 export default function ProfileScreen() {
   const [imageUrl, setImageUrl] = useState('');
@@ -17,7 +19,11 @@ export default function ProfileScreen() {
       <View style={styles.header} />
 
 /    
-      <View style={styles.avatar} />
+      <View style={styles.avatar} >
+        {/* https://icons.expo.fyi/Index */}
+         <Ionicons name="person" size={50} color={"#000"} />
+      </View>
+
 
 /
       <Text style={styles.name}>Arthur</Text>
@@ -59,6 +65,8 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     backgroundColor: '#597fcaa4',
     alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
     marginTop: -45,
     borderWidth: 4,
     borderColor: '#0f172a',
